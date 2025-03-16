@@ -28,6 +28,13 @@ section, summary, time, mark, audio, video{
 	font: inherit;
 	vertical-align: baseline
 	;}
+	iframe {
+		position: fixed;
+		bottom: 20px;  /* Position iframe near the bottom of the viewport */
+		right: 20px;   /* Position iframe near the right of the viewport */
+		z-index: 9999; /* Ensure the iframe is on top of other elements */
+	}
+	
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
